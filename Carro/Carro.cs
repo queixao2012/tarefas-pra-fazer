@@ -13,7 +13,7 @@ namespace Carro
         public Carro prox = null;
         public string ToString()
         {
-            return "Cor: " + cor + " Ano: " + ano + " Modelo" + modelo;
+            return "Cor: " + cor + " Ano: " + ano + " Modelo: " + modelo;
         }
     }
 }
