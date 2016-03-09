@@ -8,6 +8,12 @@ namespace Carro
 {
     class Carro
     {
-        publi
+        public string cor,modelo;
+        public int ano;
+        public Carro prox = null;
+        public string ToString()
+        {
+            return "Cor: " + cor + " Ano: " + ano + " Modelo" + modelo;
+        }
     }
 }
