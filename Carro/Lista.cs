@@ -8,6 +8,7 @@ namespace Carro
 {
     class Lista
     {
+
         public Carro primeiro;
         public void inserirFinal(Carro n)
         {
@@ -36,9 +37,12 @@ namespace Carro
             }
 
         }
-        public void Qtde(Carro n)
+        public int Qtde()
         {
+            int qtde;
+            qtde = 0;
 
+            return qtde;
         }
     }
 }

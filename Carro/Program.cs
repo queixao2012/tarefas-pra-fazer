@@ -10,6 +10,29 @@ namespace Carro
     {
         static void Main(string[] args)
         {
+            Carro c;
+            Lista listadealunos = new Lista();
+            int menu;
+            do
+            {
+                menu = opcaoMenu();
+                switch (menu)
+                {
+                    case 1:
+                        c = novoObjeto();
+                        listadealunos.inserirFinal(c);
+                        break;
+                    case 2:
+                        listadealunos.Imprimir();
+                        break;
+                    case 3:
+                        listadealunos.Qtde();
+                        break;
+
+
+                }
+            } while (menu != 0);
+
 
         }
         static int opcaoMenu()
